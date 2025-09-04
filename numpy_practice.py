@@ -23,10 +23,10 @@ random_floats_bw_0_and_1 = np.random.random((3,2))
 print("Floats: ", random_floats_bw_0_and_1)
 
 # Broadcasting, given operand will be operated to each element of the array based on the operation
-random_floats_bw_2_and_3 = random_floats_bw_0_and_1 + 2.0 
+random_floats_bw_2_and_3 = random_floats_bw_0_and_1 + 2.0
 print("Floats B/W: ", random_floats_bw_2_and_3)
 
-random_integers_between_100_and_250 = random_ints_bw_20_and_50 * 5 
+random_integers_between_100_and_250 = random_ints_bw_20_and_50 * 5
 print("Ints B/W: ", random_integers_between_100_and_250)
 
 # # Array Basic Operations
@@ -50,7 +50,7 @@ print("Slicing: ", a[:, 1]) # It will take every row for 1st column
 # Boolean indexing
 print("Boolean Slicing: ", a[a > 3]) # Every element matching the expression will be taken
 
-# # Maths Operations 
+# # Maths Operations
 x = np.array([1, 2, 3])
 y = np.array([4, 5, 6])
 print("Example X: ", x)
@@ -73,14 +73,14 @@ print("Min: ", np.min(x), "Max: ", np.max(x))
 print("Arg Min: ", np.argmin(x), "Arg Max: ", np.argmax(x))
 
 # Matrix multiplication
-print("Dot: ", np.dot(x, y)) 
+print("Dot: ", np.dot(x, y))
 print(x @ y)
 
 # # Array Functions
 arr = np.array([3, 1, 2, 5, 4])
 print("Example Array: ", arr)
 
-print("Sorted: ", np.sort(arr))        
+print("Sorted: ", np.sort(arr))
 print("Arg Sorted: ", np.argsort(arr)) # Indices of the sorted elements
 
 # Concatenation
@@ -153,7 +153,7 @@ print("Mean: ", np.mean(data))
 print("Std Dev: ", np.std(data))
 print("Correlation: ", np.corrcoef(data, np.arange(len(data))))
 
-# # Performance 
+# # Performance
 import time
 
 n = 10**6
